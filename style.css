@@ -1,6 +1,7 @@
 body{
-    /* font-family: 'Moon Dance', cursive; */
     font-family: 'Poppins', sans-serif;
+    color:#333333;
+    margin: 0;
 }
 .main-header-headline{
     font-family: 'Fira Sans', sans-serif;
@@ -32,4 +33,105 @@ body{
     border-radius: 7px;
     display: inline-block;
     margin: 15px 0px;
+}
+.mission-2023-section{
+    margin: 0px 70px;
+}
+.mission-2023-container{
+    display: flex;
+}
+.mission-2023-section h1{
+    text-align: center;
+    margin: 150px 0px 80px 0px;
+    font-size: 40px;
+    color: #13103A;
+    font-weight:bold;
+}
+.mission-2023-section span{
+    color: #FFAD5A;
+}
+.mission-2023-container img{
+    width: 35%;
+}
+.single-mission-container{
+    background-color: #72bec750;
+    padding: 12px;
+    border-radius: 12px;
+}
+.single-vission-container{
+    background-color: #f56c6c4d;
+    padding: 12px;
+    border-radius: 12px;
+}
+.single-goals-container{
+    background-color: #FFF4D6;
+    padding: 12px;
+    border-radius: 12px;
+}
+.mission-2023-container div{
+    margin: 0px 7px;
+    margin-bottom: 60px;
+}
+.documentation-container{
+    display: flex;
+    margin: 70px 70px;
+
+}
+.documentation-container-img{
+    width: 35%;
+    padding-left: 10px;
+}
+.documentation-container-img img{
+    width: 100%;
+}
+.documentation-container-info{
+    width: 65%;
+    margin-left: 100px;
+}
+.documentation-container-info h2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.documentation-section{
+    background-image: url(photos/documentation-bd.png);
+    background-repeat: no-repeat;
+}.documentation-section2{
+    margin-top: 150px;
+    background-image: url(photos/documentation-bd.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.our-services{
+    margin-top: 150px;
+    margin-bottom: 70px;
+    /* background-image: url(photos/documentation-bd.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: right bottom; */
+}
+.our-services h2{
+    font-size: 40px;
+    /* margin-bottom: 0px; */
+}
+.our-services span{
+    color: #FFAD5A;
+}
+.services-container{
+    display: flex;
+    margin: 30px 70px;
+
+}
+.footer-section{
+    background-color:#13103A;
+    color: white;
+    text-align: center;
+    padding:20px 0px;
+}
+.footer-section h3 ,.footer-section small {
+    font-family: 'Moon Dance', cursive; 
+}
+.footer-section h3{
+    font-size: 40px;
+}
+.footer-2023-style{
+    color: #FF5959;
 }
