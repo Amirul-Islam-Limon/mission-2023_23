@@ -1,3 +1,35 @@
-h1{
-    color: red;
+body{
+    /* font-family: 'Moon Dance', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+.main-header-headline{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
+    border-left:3px solid #FF5959;
+}
+.main-header-container{
+    display: flex;
+    margin: 35px 70px;
+    color: #333333;
+}
+.main-header-container img{
+    width: 70%;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.half-width{
+    width: 50%;
+}
+#main-header-headline-style{
+    color: #FFAD5A;
+}
+.site-button{
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 15px 0px;
 }
